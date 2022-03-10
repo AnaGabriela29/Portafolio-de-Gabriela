@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&family=Rationale&display=swap');
+
+:root{
+    --color-violet: #9f17c1;
+    --color-total: #f5f7ff;
+    --color-blue: #091693;
+    --color-dark: #06EAB3;
+    --color-pink: #F30F8A;
+    --color-light-dark: #107ADB;
+    --color-light-pink: #F1236D;
+    --color-light-blue: #162CF6;
+    --color-light-violet: #AF0DC9;
+    --color-grey: #918383;
+    --color-tex:#000000;
+    --font-family: 'Courgette', cursive;
+    --font-content: 'Rationale', sans-serif;
+    --font-title: 'Permanent Marker', cursive;
+  }
+body{
+    font-family: var(--font-content);
+    background-color: var(--color-violet);
+    color: var(--color-tex);
+}
+a {
+    text-decoration: none;
+    color: var(--color-tex);
+}
